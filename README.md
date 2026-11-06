@@ -11,3 +11,4 @@ The distribution is currently under development. Features, packages, configurati
 ---
 
 More information and documentation will be added as development progresses.
+- You can find the Changelog here: [Changelog](changelog.md)
