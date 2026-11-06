@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2025 Aditya Shakya <adi1090x@gmail.com>
+## Copyright (C) 2026 wkg2673 <tobias.scheuer@htlstp.at>
 
 ## Generate sha256sum and gpg signature files
 PWD=`pwd`
@@ -10,7 +10,7 @@ if [[ ! -d "$DIR" ]]; then
 	exit 1
 fi
 
-RELEASE=`find $DIR -type f -name "archcraft-*.iso" -printf "%f\n"`
+RELEASE=`find $DIR -type f -name "to8-arch-*.iso" -printf "%f\n"`
 
 if [[ -n "$RELEASE" ]]; then
 	echo -e "\n[*] Generating sha256sum for ${RELEASE} ..."
