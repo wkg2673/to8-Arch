@@ -1,0 +1,5 @@
+NAME="to8-Arch"
+PRETTY_NAME="to8-Arch 1.0"
+ID=to8-arch
+ID_LIKE=arch
+BUILD_ID=rolling
